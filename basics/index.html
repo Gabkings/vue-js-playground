@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{welcome()}} my age is {{age}}</p>
+        <img v-bind:src="src" v-bind:alt="alt" />
+        <p v-if="userAge > allowed"> You good to go</p>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
